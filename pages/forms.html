@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles/style.css">
+    <title>Forms</title>
+</head>
+
+<body>
+
+    <h2>¿Como te conoceremos?</h2>
+
+    <form action="" method="post">
+        <label for="name">Nombre:</label>
+        <input id="name" type="text">
+        <button type="submit">Save!</button>
+    </form>
+
+    <hr>
+
+    <h2><i>Pasta Favorita</i></h2>
+
+    <p>Elige tu pasta favorita</p>
+
+    <form action="">
+        <input type="radio" id="farfalle" name="favpasta" value="Farfalle">
+        <label for="farfalle">Farfalle</label>
+        <input type="radio" id="Serpentini" name="favpasta" value="Serpentini">
+        <label for="serpentini">Serpentini</label>
+        <input type="radio" id="Macaroni" name="favpasta" value="Macaroni">
+        <label for="Macaroni">Macaroni</label>
+        <input type="radio" id="Fusilli" name="favpasta" value="Fusilli">
+        <label for="Fusilli">Fusilli</label>
+        <input type="radio" id="Penne" name="favpasta" value="Penne">
+        <label for="Penne">Penne</label>
+        <input type="radio" id="tagliatelle" name="favpasta" value="tagliatelle">
+        <label for="agliatelle">Tagliatelle</label>
+        <input type="radio" id="Vermicelli" name="favpasta" value="Vermicelli">
+        <label for="Vermicelli">Vermicelli</label>
+        <input type="radio" id="Lasaña" name="favpasta" value="Lasaña">
+        <label for="Lasaña">Lasaña</label>
+        <input type="radio" id="Caneloni" name="favpasta" value="Caneloni">
+        <label for="Caneloni">Caneloni</label>
+        <input type="radio" id="Spaghetti" name="favpasta" value="Spaghetti">
+        <label for="Spaghetti">Spaghetti</label>
+    </form>
+
+    <p>Salsa para Pasta MAS DELICIOSA</p>
+
+    <form action="">
+        <input type="checkbox" id="alfredo" name="alfredo" value="Alfredo">
+        <label for="alfredo">Alfredo</label>
+        <input type="checkbox" id="amatriciana" name="amatriciana" value="Amatriciana">
+        <label for="amatriciana">Amatriciana</label>
+        <input type="checkbox" id="Arrabbuata" name="Arrabbuata" value="Arrabbuata">
+        <label for="Arrabbuata">Arrabbuata</label>
+        <input type="checkbox" id="Boloñesa" name="Boloñesa" value="Boloñesa">
+        <label for="Boloñesa">Boloñesa</label>
+        <input type="checkbox" id="Carbonara" name="Carbonara" value="Carbonara">
+        <label for="Carbonara">Carbonara</label> <br>
+        <input type="checkbox" id="Napolitana" name="Napolitana" value="Napolitana">
+        <label for="Napolitana">Napolitana</label>
+        <input type="checkbox" id="Pesto" name="Pesto" value="Pesto">
+        <label for="Pesto">Pesto</label>
+        <input type="checkbox" id="Puttanesca" name="Puttanesca" value="Puttanesca">
+        <label for="Puttanesca">Puttanesca</label>
+        <input type="checkbox" id="Setas" name="Setas" value="Setas">
+        <label for="Setas">Setas</label>
+        <input type="checkbox" id="Bechamel" name="Bechamel" value="Bechamel">
+        <label for="Bechamel">Bechamel</label> <br>
+
+    </form>
+
+    <h3>TEXT TYPE</h3>
+
+    <form>
+        <label for="firstName">First Name:</label>
+        <input type="text" id="firstName" name="firstName">
+        <label for="lastName">Last Name:</label>
+        <input type="text" id="lastName" name="lastName">
+    </form>
+
+
+    <hr>
+
+    <h3>text area</h3>
+
+    <textarea name="message" id="message" cols="40" rows="10"></textarea>
+
+
+    <hr>
+
+    <h3> Radio type </h3>
+
+    <p>Choose your favorite language</p>
+
+    <form action="">
+        <input type="radio" id="python" name="favLanguage" value="Python">
+        <label for="phyton">Phyton</label>
+        <input type="radio" id="java" name="favLanguage" value="Java">
+        <label for="java">Java</label>
+        <input type="radio" id="javascript" name="favLanguage" value="Javascript">
+        <label for="javascript">Javascript</label>
+    </form>
+
+    <hr>
+
+    <h3>checkbox</h3>
+
+    <p>Favorite music styles</p>
+
+    <form action="">
+        <input type="checkbox" id="indie" name="indie" value="Indie">
+        <label for="indie">Indie</label> <br>
+        <input type="checkbox" id="hiphop" name="hiphop" value="HipHop">
+        <label for="hiphop">HipHop</label> <br>
+        <input type="checkbox" id="rock" name="rock" value="Rock">
+        <label for="rock">Rock</label> <br>
+    </form>
+
+
+    <hr>
+
+    <h3>default value and placeholder</h3>
+
+    <form action="" method="post">
+        <label for="firstName">First Name:</label>
+        <input type="text" id="firstName" name="firstName" placeholder="Type your name">
+        <label for="lastName">Last Name:</label>
+        <input type="text" id="lastName" name="lastName" placeholder="Type your surname">
+        <input type="submit">
+    </form>
+
+    <hr>
+
+    <form action="" method="post">
+        <label for="firstName">First Name:</label>
+        <input type="text" id="firstName" name="firstName" value="Kim">
+        <label for="lastName">Last Name:</label>
+        <input type="text" id="lastName" name="lastName" value="Kardashian">
+        <input type="submit">
+    </form>
+
+    <hr>
+
+    <h3>Select element</h3>
+    <h4>tag, size, multiple</h4>
+
+
+    <form action="">
+        <label for="genres">Choose a genre:</label>
+        <select name="genres" id="genres" size="6" multiple>
+            <option value="indie">Indie</option>
+            <option value="rock">Rock</option>
+            <option value="pop">Pop</option>
+            <option value="dance">Dance</option>
+
+        </select>
+
+    </form>
+
+    <hr>
+
+    <h3>Buttons</h3>
+
+    <button type="button" onclick="alert('You clicked me')"> Click me!</button>
+
+    <h3>A gift!</h3>
+
+
+    <form oninput="result.value=parseInt(first.value)+parseInt(second.value)">
+        0
+        <input type="range" id="first" name="first" value="50">
+        100 +
+        <input type="number" id="second" name="second" value="100">
+        =
+        <output name="result" for="first second"></output>
+        <br><br>
+        <input type="submit">
+    </form>
+
+</body>
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+
+</html>
